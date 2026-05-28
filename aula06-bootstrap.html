@@ -22,7 +22,27 @@
       </div>
     </div>
 
-    <form action="" class="nee"></form>
+    <form action="" class="needs-validation" id="formularioCadastro">
+      <div class="secao-form">
+        <h2 class="titulo-seco"><i class="bi bi-person-badge"></i>Dados Pessoais</h2>
+          <div class="row gap-3">
+            <div class="col-12 col-md-8">
+              <label for="nomeCompleto" class="form-label">Nome completo</label>
+            <input type="text" class="form-control" id=" nomeCompleto" name="nomeCompleto" placeholder="Ex:Maria da Silva">
+            <div class="invalid-feedback">Informe o noome completo</div>
+            </div>
+
+             <div class="col-6 col-md-2">
+              <label for="cpf" class="form-label">CPF</label>
+            <input type="text" class="form-control" id="cpf"
+            name="cpf" placeholder="Ex: 000.000.000-00">
+            <div class="invalid-feedback">CPF Inválido.</div>
+            </div>
+
+            
+          </div>
+      </div>
+    </form>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
